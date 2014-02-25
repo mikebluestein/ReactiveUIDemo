@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RXUIDemo", "RXUIDemo\RXUIDemo.csproj", "{ED9E3E0A-416E-4A26-B13E-C46F310280D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Debug|iPhone.Build.0 = Debug|iPhone
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Release|iPhone.ActiveCfg = Release|iPhone
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Release|iPhone.Build.0 = Release|iPhone
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{ED9E3E0A-416E-4A26-B13E-C46F310280D3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RXUIDemo\RXUIDemo.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
