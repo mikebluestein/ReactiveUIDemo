@@ -22,7 +22,7 @@ namespace RXUIDemo.ViewModels
 
 	public class BingSearch : ReactiveObject
 	{
-		const string API_KEY = "+SnJvxO1rQNUjbw2SqPcxQBIJ5MsWh0YXCtS8gbP0L8=";
+		const string API_KEY = "YOUR BING API KEY";
 
 		string query;
 
