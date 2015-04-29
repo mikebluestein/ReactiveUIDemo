@@ -1,10 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using Foundation;
+using UIKit;
 using System.Net;
 using System.Json;
+using RXUIDemo.ViewModels;
 
 namespace RXUIDemo
 {
@@ -72,7 +73,7 @@ namespace RXUIDemo
                 this.controller = controller;
             }
 
-            public override int RowsInSection (UITableView tableView, int section)
+            public override nint RowsInSection (UITableView tableView, nint section)
             {
                 return controller.searchResults.Count;
             }
@@ -93,21 +94,4 @@ namespace RXUIDemo
             }
         }
     }
-
-    public class SearchResult
-    {
-        public string Title { get; protected set; }
-
-        public string Description { get; protected set; }
-
-        public SearchResult (string title, string description)
-        {
-            Title = title;
-            Description = description;
-        }
-    }
 }
-
-
-
-
